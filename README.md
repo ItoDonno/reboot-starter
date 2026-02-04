@@ -50,6 +50,7 @@ reboot list --all --json
 ```
 
 Other commands
+
 ```
 reboot done <id>           # mark task completed
 reboot rm <id>             # remove a task
@@ -59,6 +60,7 @@ reboot open                # open DB in VS Code or default app
 ```
 
 Notes
+
 - The database is created at `~/.reboot-starter/tasks.json` on first run.
 - Use `--json` on any command to get structured JSON responses (ok/error and result objects) suitable for scripts.
 
